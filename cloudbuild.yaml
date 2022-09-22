@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', 't',  'grc.io/chima-n01398804/my-iris-app.1', '.']
+  args: ['build', 't',  'grc.io/chima-n01398804/my-iris-app', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'grc.io/chima-n01398804/my-iris-app.1',]
+  args: ['push', 'grc.io/chima-n01398804/my-iris-app',]
