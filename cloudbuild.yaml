@@ -2,4 +2,4 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', 't',  'grc.io/chima-n01398804/my-iris-app', "./backend",]
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'grc.io/chima-n01398804/my-iris-app',]
+  args: ['push', 'grc.io/chima-n01398804/my-iris-app', "./backend",]
