@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', 't',  'grc.io/chima-n01398804/first_app', '.']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'grc.io/chima-n01398804/first_app',]
